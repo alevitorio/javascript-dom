@@ -1,6 +1,6 @@
 # 🌐 Manipulando a DOM (Document Object Model)
 
-> Um guia super completo, visual e cheio de curiosidades para impressionar na sala de aula e brilhar no GitHub ⭐
+> Um guia super completo, visual e cheio de curiosidades ⭐
 
 ---
 
@@ -280,4 +280,4 @@ A DOM é a ponte entre o HTML e o JavaScript. Ao entender sua estrutura e como m
 
 > DOM não é só código — é magia interativa 🪄
 
-👨‍🏫 Criado para os alunos da **ETEC** com carinho por **[AleDev](https://github.com/)**
+👨‍🏫 Criado para os alunos da **ETEC**  por **[Prof. Alessandro](https://github.com/alevitorio)**

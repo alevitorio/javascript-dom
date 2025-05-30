@@ -1,0 +1,43 @@
+<body>
+    <h1>Console na Tela 👀</h1>
+    <div id="console"></div>
+    <button onclick="gerarLog()">Gerar Log</button>
+
+    <script>
+        function logNaTela(mensagem) {
+            const pre = document.createElement("pre");
+            pre.textContent = `[log] ${mensagem}`;
+            pre.style.background = "#111";
+            pre.style.color = "#0f0";
+            pre.style.padding = "6px";
+            pre.style.margin = "4px 0";
+            pre.style.fontFamily = "monospace";
+
+            document.getElementById("console").appendChild(pre);
+        }
+     
+     
+        function gerarLog() {
+            let getMessage = prompt("Digite seu log");
+             console.log(getMessage);
+                if (getMessage==null) return
+                    
+                
+            let notMessage = getMessage ? false : true
+            while (notMessage ) {
+               getMessage = prompt("⚠ Digite seu log");
+               if(getMessage || getMessage==null){
+                notMessage = false;
+                return
+               }
+            }
+            logNaTela(getMessage);
+        }
+       
+       
+       
+        // Exemplos de uso:
+        // logNaTela("Página carregada com sucesso!");
+        // logNaTela("Usuário clicou no botão!");
+    </script>
+</body>
